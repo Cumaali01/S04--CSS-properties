@@ -1,0 +1,49 @@
+h2{
+    text-align: center;
+}
+#par1{
+color: blue;
+text-align: center;
+text-transform: capitalize;
+letter-spacing: 10px;
+text-shadow: 3px 3px 5px red;
+column-count: 3;
+column-rule: 3px solid red;
+
+
+}
+#par2{
+    color: rgba(255, 0, 0, 1);
+    text-align: right;
+    text-transform: lowercase;
+    word-spacing: 1rems;
+    direction: rtl;
+    unicode-bidi: bidi-override;  /*Tersten yazıyor*/
+    
+}
+#par3{
+    color: #3f16c5;
+    text-align: justify;
+    text-decoration: line-through dashed 5px red;
+}
+#par4{
+    color: hsl(0, 100%, 50%);
+    text-decoration: underline dotted aqua;
+    text-transform: uppercase;
+    text-indent: 2rem;
+    line-height: 2rem;
+   direction: rtl;
+   
+
+}
+#par5{
+    color: fuchsia;
+    text-decoration: overline wavy orange;
+    font-family: 'Yellowtail', cursive;
+    font-size: 1.5rem;
+
+}
+#par5::first-letter{
+    font-size: 4rem;
+}
+

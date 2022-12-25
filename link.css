@@ -26,4 +26,8 @@ a:active{
     background-color: blue;
     color: yellow;
 }
+/* .box{
+    display: flex;
+    flex-direction: column;
+} */
  
